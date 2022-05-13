@@ -63,7 +63,7 @@ class BST {
       return searchNode(root, val);
   }
 
-  int height() {
+  int depth() {
       return heightTree(root);
   }
 };
