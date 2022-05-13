@@ -53,6 +53,8 @@ class BST {
   }
 
  public:
+  BST:root(nullptr) {}
+
   void add(T& val) {
       root = addNode(root, value);
   }
@@ -64,8 +66,6 @@ class BST {
   int height() {
       return heightTree(root);
   }
-
-  BST<T> makeTree(const char*);
 };
 
 #endif  // INCLUDE_BST_H_
