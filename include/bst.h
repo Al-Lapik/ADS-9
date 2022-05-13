@@ -53,10 +53,10 @@ class BST {
   }
 
  public:
-  BST:root(nullptr) {}
+  BST():root(nullptr) {}
 
   void add(T& val) {
-      root = addNode(root, value);
+      root = addNode(root, val);
   }
 
   int search(T& val) {
